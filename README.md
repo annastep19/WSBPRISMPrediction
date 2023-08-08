@@ -1,6 +1,6 @@
 # Wrong sign background PRISM prediction
 
-Code of Anna Stepanova for DUNE-PRISM group. Section 2.1 and "linearComb" directory are based on Den's code: https://github.com/DanielMDouglas/prism_fitting 
+Code of Anna Stepanova for DUNE-PRISM group. Section 2.1 and "linearComb" directory are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting 
 
 > Some notes:
 > 
@@ -38,7 +38,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Code:**
 
-- twoDimRatios.py - to create 2D ratios of ND off-axis fluxes
+- 'twoDimRatios.py' - to create 2D ratios of ND off-axis fluxes
 
 
 **Results:**
@@ -77,8 +77,8 @@ Data:
 
 **Code:**
 
-- Init_range_old.py $\leftarrow$ FormFile.py, BaseCombine.py - to produce a mode file of old fluxes
-- Init_ragne_300_285.py $\leftarrow$ FormFile.py, BaseCombine.py - the same for new fluxes
+- 'Init_range_old.py' $\leftarrow$ FormFile.py, BaseCombine.py - to produce a mode file of old fluxes
+- 'Init_ragne_300_285.py' $\leftarrow$ FormFile.py, BaseCombine.py - the same for new fluxes
 
 
 ### 2.1 Making a linear combination
