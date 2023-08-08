@@ -14,7 +14,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Code:**
 
-- form_file.py - to extract and join unoscillated numu flux hists from different input files in one output file for each mode
+- `form_file.py` - to extract and join unoscillated numu flux hists from different input files in one output file for each mode
 
 **Data:**
 
@@ -30,7 +30,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Code:**
 
-- one_dim_ratios.py $\leftarrow$ one_dim_utils.py - to launch ratio calculations at a particular position and create plots.
+- `one_dim_ratios.py $\leftarrow$ one_dim_utils.py` - to launch ratio calculations at a particular position and create plots.
  
 **Results:**
 
@@ -38,7 +38,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Code:**
 
-- 'twoDimRatios.py' - to create 2D ratios of ND off-axis fluxes
+- `twoDimRatios.py` - to create 2D ratios of ND off-axis fluxes
 
 
 **Results:**
@@ -77,21 +77,21 @@ Data:
 
 **Code:**
 
-- 'Init\_range\_old.py' $\leftarrow$ FormFile.py, BaseCombine.py - to produce a mode file of old fluxes
-- 'Init\_ragne\_300\_285.py' $\leftarrow$ FormFile.py, BaseCombine.py - the same for new fluxes
+- `Init\_range\_old.py $\leftarrow$ FormFile.py, BaseCombine.py` - to produce a mode file of old fluxes
+- `Init\_ragne\_300\_285.py $\leftarrow$ FormFile.py, BaseCombine.py` - the same for new fluxes
 
 
 ### 2.1 Making a linear combination
 
 **Code:**
 
-- `fluxes.py` $\leftarrow$ `utils.py`:
+- `fluxes.py $\leftarrow$ utils.py`:
   - to determine data files
   - to point syst shifts
   - to arrange fluxes in dicts (to set root-file and a single name of hist)
   - to set energy and off-axis ranges
 
-- `flux_fitter.py` $\leftarrow$ `fluxes.py`, `utils.py`, `plots.py`: 
+- `flux_fitter.py $\leftarrow$ fluxes.py, utils.py, plots.py`: 
 
   - to load fluxes and set other variables
   
@@ -101,14 +101,14 @@ Data:
   - to add a FD RHC flux as a new target
   - to calculate coefficients of linear combination
   
-- ErrorPlots.py
+- `ErrorPlots.py`
 
 
 **Figures:**
 
 - to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
-  - examples/nom_coeff_300_285.py $\leftarrow$ plots.py, flux_fitter.py - new data: FHC, RHC
-  - examples/nom_coeff_old.py $\leftarrow$ plots.py, flux_fitter.py - old data: FHC, RHC
+  - `examples/nom_coeff_300_285.py $\leftarrow$ plots.py, flux_fitter.py` - new data: FHC, RHC
+  - `examples/nom_coeff_old.py $\leftarrow$ plots.py, flux_fitter.py` - old data: FHC, RHC
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
-  - examples/shifts_300_285.py $\leftarrow$ ErrorPlots.py, flux_fitter.py - new data: ppfx / focusing uncertainties: FHC, RHC
-  - examples/shifts_old.py $\leftarrow$ ErrorPlots.py, flux_fitter.py - old data: ppfx / focusing  uncertainties: FHC, RHC
+  - `examples/shifts_300_285.py $\leftarrow$ ErrorPlots.py, flux_fitter.py` - new data: ppfx / focusing uncertainties: FHC, RHC
+  - `examples/shifts_old.py $\leftarrow$ ErrorPlots.py, flux_fitter.py` - old data: ppfx / focusing  uncertainties: FHC, RHC
