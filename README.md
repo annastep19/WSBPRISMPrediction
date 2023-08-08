@@ -85,13 +85,13 @@ Data:
 
 **Code:**
 
-- '''fluxes.py''' $\leftarrow$ utils.py:
+- `fluxes.py` $\leftarrow$ `utils.py`:
   - to determine data files
   - to point syst shifts
   - to arrange fluxes in dicts (to set root-file and a single name of hist)
   - to set energy and off-axis ranges
 
-- flux_fitter.py $\leftarrow$ fluxes.py, utils.py, plots.py: 
+- `flux_fitter.py` $\leftarrow$ `fluxes.py`, `utils.py`, `plots.py`: 
 
   - to load fluxes and set other variables
   
