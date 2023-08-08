@@ -5,11 +5,10 @@
 > Some notes:
 > 
 > - *Data* means Monte-Carlo simulation that is used as an input or output of code: (10.220.18.41)
-> - '$\leftarrow$' means that the functions from the script on the right are used in the left script 
-> - *300* in names of py-files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: 
-> - /home/annast/project/neutrino/OtherHorns/
+> - $\leftarrow$ means that the functions from the script on the right are used in the left script 
+> - *300* in names of py-files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: /home/annast/project/neutrino/OtherHorns/
 
-### 1. Simplest comparison
+## 1. Simplest comparison
 
 To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neutrino mode) and RHC (antineutrino mode).
 
@@ -44,7 +43,7 @@ Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current
 
 **Results:**
 
-### 2. Modifications of Den's code
+## 2. Modifications of Den's code
 
 Data:
 
@@ -111,4 +110,3 @@ Figures:
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
   - examples/shifts_300_285.py $\leftarrow$ ErrorPlots.py, flux_fitter.py - new data: ppfx / focusing uncertainties: FHC, RHC
   - examples/shifts_old.py $\leftarrow$ ErrorPlots.py, flux_fitter.py - old data: ppfx / focusing  uncertainties: FHC, RHC
-
