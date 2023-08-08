@@ -49,29 +49,29 @@ Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current
 Data:
 
 - input:
- - old data = Den's data file: 
-   - all_HC.root
- - new data = Pierce's data files: 
-   - /home/annast/project/neutrino/, 
-   - /home/annast/project/antineutrino/
+  - old data = Den's data file: 
+    - all_HC.root
+  - new data = Pierce's data files: 
+    - /home/annast/project/neutrino/, 
+    - /home/annast/project/antineutrino/
 
 - output:
- - old data: 
-   - /home/annast/project/outputs/neutrino_range_old.root,
-   - /home/annast/project/outputs/antineutrino_range_old.root
+  - old data: 
+    - /home/annast/project/outputs/neutrino_range_old.root,
+    - /home/annast/project/outputs/antineutrino_range_old.root
    
-   ![1](/imgs/1.png)
-   ![2](/imgs/2.png)
+    ![1](/imgs/1.png)
+    ![2](/imgs/2.png)
 
-   ![3](/imgs/3.png)
-   ![4](/imgs/4.png)
+    ![3](/imgs/3.png)
+    ![4](/imgs/4.png)
 
  - new data:
-   - /home/annast/project/outputs/neutrino_range_300_285.root,
-   - /home/annast/project/outputs/antineutrino_range_300_285.root
+    - /home/annast/project/outputs/neutrino_range_300_285.root,
+    - /home/annast/project/outputs/antineutrino_range_300_285.root
 
-   ![5](/imgs/5.png)
-   ![6](/imgs/6.png)
+    ![5](/imgs/5.png)
+    ![6](/imgs/6.png)
   
 Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes directly. See part 2.1
 
