@@ -77,8 +77,8 @@ Data:
 
 **Code:**
 
-- 'Init_range_old.py' $\leftarrow$ FormFile.py, BaseCombine.py - to produce a mode file of old fluxes
-- 'Init_ragne_300_285.py' $\leftarrow$ FormFile.py, BaseCombine.py - the same for new fluxes
+- 'Init\_range\_old.py' $\leftarrow$ FormFile.py, BaseCombine.py - to produce a mode file of old fluxes
+- 'Init\_ragne\_300\_285.py' $\leftarrow$ FormFile.py, BaseCombine.py - the same for new fluxes
 
 
 ### 2.1 Making a linear combination
