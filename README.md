@@ -2,12 +2,12 @@
 
 ## Code description 
 
-Some notes:
-
-- *Data* means Monte-Carlo simulation that is used as an input or output of code: (10.220.18.41)
-- '$\leftarrow$' means that the functions from the script on the right are used in the left script 
-- *300* in names of py-files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: 
- - /home/annast/project/neutrino/OtherHorns/
+> Some notes:
+> 
+> - *Data* means Monte-Carlo simulation that is used as an input or output of code: (10.220.18.41)
+> - '$\leftarrow$' means that the functions from the script on the right are used in the left script 
+> - *300* in names of py-files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: 
+> - /home/annast/project/neutrino/OtherHorns/
 
 ### 1. Simplest comparison
 
