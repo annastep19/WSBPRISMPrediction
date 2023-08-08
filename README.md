@@ -24,7 +24,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 - output files: 
   - /home/annast/project/uncert/
 
-Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
+  > Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
 
 ### 1.1 One dimensional plots
 
@@ -72,7 +72,7 @@ Data:
     ![5](/imgs/5.png)
     ![6](/imgs/6.png)
   
-Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes directly. See part 2.1
+  > Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes directly. See part 2.1
 
 
 **Code:**
@@ -95,7 +95,7 @@ Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes 
 
   - to load fluxes and set other variables
   
-  Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): to produce new ppfx fluxes old ppfx fluxes are used for now
+  > Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): to produce new ppfx fluxes old ppfx fluxes are used for now
   - to change fit and OA range, 
   - to add a FD RHC flux as a new target
   - to calculate coefficients of linear combination
@@ -103,7 +103,8 @@ Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes 
 - ErrorPlots.py
 
 
-Figures:
+**Figures:**
+
 - to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
   - examples/nom_coeff_300_285.py $\leftarrow$ plots.py, flux_fitter.py - new data: FHC, RHC
   - examples/nom_coeff_old.py $\leftarrow$} plots.py, flux_fitter.py - old data: FHC, RHC
