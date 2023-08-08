@@ -96,6 +96,7 @@ Data:
   - to load fluxes and set other variables
   
   > Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): to produce new ppfx fluxes old ppfx fluxes are used for now
+
   - to change fit and OA range, 
   - to add a FD RHC flux as a new target
   - to calculate coefficients of linear combination
@@ -107,7 +108,7 @@ Data:
 
 - to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
   - examples/nom_coeff_300_285.py $\leftarrow$ plots.py, flux_fitter.py - new data: FHC, RHC
-  - examples/nom_coeff_old.py $\leftarrow$} plots.py, flux_fitter.py - old data: FHC, RHC
+  - examples/nom_coeff_old.py $\leftarrow$ plots.py, flux_fitter.py - old data: FHC, RHC
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
   - examples/shifts_300_285.py $\leftarrow$ ErrorPlots.py, flux_fitter.py - new data: ppfx / focusing uncertainties: FHC, RHC
   - examples/shifts_old.py $\leftarrow$ ErrorPlots.py, flux_fitter.py - old data: ppfx / focusing  uncertainties: FHC, RHC
