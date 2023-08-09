@@ -21,18 +21,20 @@ To extract and join unoscillated numu flux hists from different input files in o
 
 - python script: `uncert/form_file.py`
 
-- output files: will be created in uncert/.
- The copy is in /home/annast/WSBPRISMPrediction/uncert/
+- output files: will be created in uncert/
+The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 ```
 
 > Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
 
 ### 1.1 One dimensional plots
+To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
 
-**Code:**
+```
+- python scripts: `one_dim_ratios.py` $\leftarrow$ `one_dim_utils.py`
+```
 
-- `one_dim_ratios.py` $\leftarrow$ `one_dim_utils.py` - to launch ratio calculations at a particular position and create plots
- 
+See figures in **Results**
 
 ### 1.2 Two dimensional plots
 
