@@ -136,37 +136,36 @@ Data:
     - FHC:
        - focusing 
 
-       ![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
+![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
     
        - ppfx
 
-       ![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
+![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
 
     - RHC
        - focusing 
 
-       ![k](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
+![k](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
     
        - ppfx
 
-       ![l](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
+![l](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
 
   - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data:
     - FHC:
        - focusing 
 
-       ![m](/imgs/jpg/FHC_other_old_page-0001.jpg)
+![m](/imgs/jpg/FHC_other_old_page-0001.jpg)
     
        - ppfx
 
-       ![o](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
+![o](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
 
     - RHC
        - focusing 
 
-       ![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
+![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
     
        - ppfx
 
-       ![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
-
+![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
