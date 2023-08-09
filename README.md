@@ -18,7 +18,7 @@ To extract and join unoscillated numu flux hists from different input files in o
 ```
 - input files: /home/annast/WSBPRISMPrediction/neutrino/, 
                /home/annast/WSBPRISMPrediction/antineutrino/
-  NB: you should load them here: ./
+  NB: you should load them here: ./neutrino, ./antineutrino
 
 - run script: python uncert/form_file.py
 
