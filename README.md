@@ -32,10 +32,6 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 - `one_dim_ratios.py` $\leftarrow$ `one_dim_utils.py` - to launch ratio calculations at a particular position and create plots
  
-**Results:**
-
-![a](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0001.jpg)
-![b](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0002.jpg)
 
 ### 1.2 Two dimensional plots
 
@@ -43,11 +39,6 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 - `twoDimRatios.py` - to create 2D ratios of ND off-axis fluxes
 
-
-**Results:**
-
-![c](/imgs/jpg/LAr_center_Horn_Current_pos_page-0001.jpg)
-![d](/imgs/jpg/LAr_center_Horn_Current_neg_page-0001.jpg)
 
 ## 2. Modifications of Den's code
 
@@ -115,57 +106,55 @@ Data:
 - to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
   - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: 
     - FHC
-
-![e](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
-
     - RHC
-
-![f](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
-
   - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data:
     - FHC
-
-![g](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
-
     - RHC
-
-![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
-
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
   - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data:
     - FHC:
        - focusing 
-
-![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
-    
        - ppfx
-
-![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
-
     - RHC
-       - focusing 
-
-![k](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
-    
+       - focusing
        - ppfx
-
-![l](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
-
   - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data:
     - FHC:
        - focusing 
-
-![m](/imgs/jpg/FHC_other_old_page-0001.jpg)
-    
        - ppfx
-
-![o](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
-
     - RHC
        - focusing 
-
-![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
-    
        - ppfx
 
+## Results:
+
+### 1.1 One dimensional plots
+
+![a](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0001.jpg)
+![b](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0002.jpg)
+
+### 1.2 Two dimensional plots
+
+![c](/imgs/jpg/LAr_center_Horn_Current_pos_page-0001.jpg)
+![d](/imgs/jpg/LAr_center_Horn_Current_neg_page-0001.jpg)
+
+### 
+
+![e](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
+![f](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
+
+![g](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
+![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
+
+![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
+![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
+
+![k](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
+![l](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
+
+![m](/imgs/jpg/FHC_other_old_page-0001.jpg)
+![o](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
+
+![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
 ![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
+
