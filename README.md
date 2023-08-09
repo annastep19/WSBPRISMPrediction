@@ -116,20 +116,20 @@ Data:
   - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: 
     - FHC
 
-    ![e](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
+![e](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
 
     - RHC
 
-    ![f](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
+![f](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
 
   - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data:
     - FHC
 
-    ![g](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
+![g](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
 
     - RHC
 
-    ![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
+![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
 
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
   - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data:
