@@ -18,6 +18,7 @@ To extract and join unoscillated numu flux hists from different input files in o
 ```
 - input files: /home/annast/WSBPRISMPrediction/neutrino/, 
                /home/annast/WSBPRISMPrediction/antineutrino/
+
   NB: you should load them here: ./neutrino, ./antineutrino
 
 - run script: python uncert/form_file.py
@@ -59,10 +60,13 @@ To produce a mode file of new (old) nominal and shifted fluxes
 - input files:
   - old (Den's data file): 
     - /home/annast/WSBPRISMPrediction/all_HC.root
+
   NB: you should load them here: ./
+
   - new (Pierce's data files): 
     - /home/annast/WSBPRISMPrediction/neutrino/ 
     - /home/annast/WSBPRISMPrediction/antineutrino/
+
   NB: you should load them here: ./neutrino/, ./antineutino/
 
 
