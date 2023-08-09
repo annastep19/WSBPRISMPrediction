@@ -1,6 +1,6 @@
 # Wrong sign background PRISM prediction
 
-Code of Anna Stepanova for DUNE-PRISM group. Section 2.1 and the directory of "linearComb/" are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting 
+Code of Anna Stepanova for DUNE-PRISM group. Section 2 and the directory of "linearComb/" are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting 
 
 > Some notes:
 > 
