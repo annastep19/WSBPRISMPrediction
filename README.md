@@ -7,6 +7,14 @@ Code of Anna Stepanova for DUNE-PRISM group. Section 2 and the directory of "lin
 > - *Data* means Monte-Carlo simulation that is used as inputs or outputs and temporarily located in 10.220.18.41
 > - *300* in names of python files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: /home/annast/WSBPRISMPrediction/neutrino/OtherHorns/
 
+```
+# clone this repo to start
+git clone git@github.com:annastep19/WSBPRISMPrediction.git
+
+# copy data files from 10.220.18.41
+cp /home/annast/WSBPRISMPrediction/ .
+```
+
 ## 1. Comparison of muon neutrino fluxes in FHC and RHC modes in the near detector
 
 To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neutrino mode) and RHC (antineutrino mode).
