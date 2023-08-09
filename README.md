@@ -164,16 +164,38 @@ NB: it uses ErrorPlots.py
 
 ### 1.2 Two dimensional plots
 
+New data:
+
+- Horn Current + 1 sigma
+
 ![c](/imgs/jpg/LAr_center_Horn_Current_pos_page-0001.jpg)
+
+- Horn Current - 1 sigma
+
 ![d](/imgs/jpg/LAr_center_Horn_Current_neg_page-0001.jpg)
 
+- Decay Pipe Radius + 1 sigma
+
 ![r](/imgs/jpg/LAr_center_Decay_Pipe_Radius_pos_page-0001.jpg)
+
+- Decay Pipe Radius - 1 sigma
+
 ![s](/imgs/jpg/LAr_center_Decay_Pipe_Radius_neg_page-0001.jpg)
 
+- Horn Current Water Layer Thickness + 1 sigma
+
 ![t](/imgs/jpg/LAr_center_Horn_Water_Layer_Thickness_pos_page-0001.jpg)
+
+- Horn Current Water Layer Thickness - 1 sigma
+
 ![x](/imgs/jpg/LAr_center_Horn_Water_Layer_Thickness_neg_page-0001.jpg)
 
+- Proton Beam Radius + 1 sigma
+
 ![y](/imgs/jpg/LAr_center_Proton_Beam_Radius_pos_page-0001.jpg)
+
+- Proton Beam Radius - 1 sigma
+
 ![z](/imgs/jpg/LAr_center_Proton_Beam_Radius_neg_page-0001.jpg)
 
 ## 2. The DUNE-PRISM method for muon neutrino fluxes
@@ -199,17 +221,35 @@ Old data:
 ![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
 
 New data:
-- FHC: other/ppfx
+- FHC: other
 
 ![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
+
+- FHC: ppfx
+
 ![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
 
+- RHC: other
+
 ![k](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
+
+- RHC: ppfx
+
 ![l](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
 
+Old data:
+- FHC: other
+
 ![m](/imgs/jpg/FHC_other_old_page-0001.jpg)
+
+- FHC: ppfx
+
 ![o](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
 
-![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
-![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
+- RHC: other
 
+![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
+
+- RHC: ppfx
+
+![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
