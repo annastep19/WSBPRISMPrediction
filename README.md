@@ -46,7 +46,8 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Results:**
 
-![c](/imgs/jpg/LAr_center_Decay_Pipe_Radius_pos_page-0001.jpg)
+![c](/imgs/jpg/LAr_center_Horn_Current_pos_page-0001.jpg)
+![d](/imgs/jpg/LAr_center_Horn_Current_neg_page-0001.jpg)
 
 ## 2. Modifications of Den's code
 
@@ -109,11 +110,19 @@ Data:
 - `ErrorPlots.py`
 
 
-**Figures:**
+**Results:**
 
 - to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
   - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: FHC, RHC
+
+![g](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
+![h](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
+
   - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data: FHC, RHC
+
+![e](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
+![f](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
+
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
   - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data: ppfx / focusing uncertainties: FHC, RHC
   - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data: ppfx / focusing  uncertainties: FHC, RHC
