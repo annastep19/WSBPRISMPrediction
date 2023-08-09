@@ -113,16 +113,60 @@ Data:
 **Results:**
 
 - to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
-  - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: FHC, RHC
+  - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: 
+    - FHC
 
 ![g](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
+
+    - RHC
+
 ![h](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
 
-  - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data: FHC, RHC
+  - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data:
+    - FHC
 
 ![e](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
+
+    - RHC
+
 ![f](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
 
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
-  - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data: ppfx / focusing uncertainties: FHC, RHC
-  - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data: ppfx / focusing  uncertainties: FHC, RHC
+  - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data:
+    - FHC:
+       - focusing 
+
+     ![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
+    
+       - ppfx
+
+     ![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
+
+    - RHC
+       - focusing 
+
+     ![i](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
+    
+       - ppfx
+
+     ![j](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
+
+  - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data:
+    - FHC:
+       - focusing 
+
+     ![i](/imgs/jpg/FHC_other_old_page-0001.jpg)
+    
+       - ppfx
+
+     ![j](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
+
+    - RHC
+       - focusing 
+
+     ![i](/imgs/jpg/RHC_other_old_page-0001.jpg)
+    
+       - ppfx
+
+     ![i](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
+
