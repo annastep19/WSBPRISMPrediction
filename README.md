@@ -46,6 +46,8 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Results:**
 
+![c](/imgs/jpg/LAr_center_Decay_Pipe_Radius_pos_page-0001.jpg)
+
 ## 2. Modifications of Den's code
 
 Data:
