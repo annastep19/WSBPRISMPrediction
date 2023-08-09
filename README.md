@@ -5,7 +5,6 @@ Code of Anna Stepanova for DUNE-PRISM group. Section 2.1 and the directory of "l
 > Some notes:
 > 
 > - *Data* means Monte-Carlo simulation that is used as inputs or outputs and located in 10.220.18.41
-> - $\leftarrow$ means that functions from a script on the right are used in a left script 
 > - *300* in names of python files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: /home/annast/WSBPRISMPrediction/neutrino/OtherHorns/
 
 ## 1. Comparison of muon neutrino fluxes in FHC and RHC modes in the near detector
@@ -32,17 +31,17 @@ The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
 
 ```
-- python scripts: one_dim_ratios.py `$\leftarrow$` one_dim_utils.py
+- python scripts: uncert/one_dim_ratios.py, uncert/one_dim_utils.py
 ```
 
 See figures in **Results**
 
 ### 1.2 Two dimensional plots
+To create 2D ratios of ND off-axis fluxes (shifted/nominal): muon neutrino fluxes in FHC and RHC modes
 
-**Code:**
-
-- `twoDimRatios.py` - to create 2D ratios of ND off-axis fluxes
-
+```
+- `uncert/twoDimRatios.py` 
+```
 
 ## 2. Modifications of Den's code
 
@@ -139,8 +138,17 @@ Data:
 
 ### 1.2 Two dimensional plots
 
+![r](/imgs/jpg/LAr_center_Decay_Pipe_Radius_pos_page-0001.jpg)
+![s](/imgs/jpg/LAr_center_Decay_Pipe_Radius_neg_page-0001.jpg)
+
 ![c](/imgs/jpg/LAr_center_Horn_Current_pos_page-0001.jpg)
 ![d](/imgs/jpg/LAr_center_Horn_Current_neg_page-0001.jpg)
+
+![t](/imgs/jpg/LAr_center_Horn_Water_Layer_Thickness_pos_page-0001.jpg)
+![x](/imgs/jpg/LAr_center_Horn_Water_Layer_Thickness_neg_page-0001.jpg)
+
+![y](/imgs/jpg/LAr_center_Proton_Beam_Radius_pos_page-0001.jpg)
+![z](/imgs/jpg/LAr_center_Proton_Beam_Radius_neg_page-0001.jpg)
 
 ### 
 
