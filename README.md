@@ -19,7 +19,7 @@ To extract and join unoscillated numu flux hists from different input files in o
 - input files: /home/annast/WSBPRISMPrediction/neutrino/, 
                /home/annast/WSBPRISMPrediction/antineutrino/
 
-- run script: `uncert/form_file.py`
+- run script: ` python uncert/form_file.py`
 
 - output files: will be created in uncert/
 ```
@@ -153,11 +153,16 @@ python examples/shifts_old.py
 NB: it uses ErrorPlots.py
 ```
 
+See figures in **Results**
+
 ## Results:
 
 ## 1. Comparison of muon neutrino fluxes in FHC and RHC modes in the near detector
 
 ### 1.1 One dimensional plots
+
+New data:
+- Horn Current: on-axis position 
 
 ![a](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0001.jpg)
 ![b](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0002.jpg)
