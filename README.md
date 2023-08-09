@@ -19,7 +19,7 @@ To extract and join unoscillated numu flux hists from different input files in o
 - input files: /home/annast/WSBPRISMPrediction/neutrino/, 
                /home/annast/WSBPRISMPrediction/antineutrino/
 
-- python script: `uncert/form_file.py`
+- run script: `uncert/form_file.py`
 
 - output files: will be created in uncert/
 ```
@@ -32,7 +32,9 @@ The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
 
 ```
-uncert/one_dim_ratios.py, uncert/one_dim_utils.py
+python uncert/one_dim_ratios.py 
+
+NB: it uses uncert/one_dim_utils.py
 ```
 
 See figures in **Results**
@@ -41,12 +43,12 @@ See figures in **Results**
 To create 2D ratios of ND off-axis fluxes (shifted/nominal): muon neutrino fluxes in FHC and RHC modes
 
 ```
-uncert/twoDimRatios.py
+python uncert/twoDimRatios.py
 ```
 
 See figures in **Results**
 
-## 2. Modifications of Den's code
+## 2. The DUNE-PRISM method for muon neutrino fluxes
 
 **Preparing root-file:**
 
@@ -61,9 +63,9 @@ To produce a mode file of new (old) nominal and shifted fluxes
     - /home/annast/WSBPRISMPrediction/antineutrino/
 
 - utils: FormFile.py, BaseCombine.py 
-- run scripts: Init\_ragne\_300\_285.py, 
-               Init\_range\_old.py
-- output files: will be created in ./
+- run scripts: Init_range_300_285.py, 
+               Init_range_old.py
+- output files: will be created in outputs/
 ```
 The copy of outputs is in:
   - old data: 
@@ -85,53 +87,71 @@ The copy of outputs is in:
 
 > Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes directly. Look further.
   
-### 2.1 Making a linear combination
+**Making a linear combination**
 
-**Code:**
+```
+cd linearComb/
+```
 
-- `fluxes.py` $\leftarrow$ `utils.py`:
+- `fluxes.py` + `utils.py`:
   - to determine data files
   - to point syst shifts
   - to arrange fluxes in dicts (to set root-file and a single name of hist)
   - to set energy and off-axis ranges
-
-- `flux_fitter.py` $\leftarrow$ `fluxes.py, utils.py, plots.py`: 
-
+- `flux_fitter.py` + `fluxes.py`, `utils.py`, `oscProbs.py`:
   - to load fluxes and set other variables
-  
-  > Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): to produce new ppfx fluxes old ppfx fluxes are used for now
-
+  > Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): 
+    to produce new ppfx fluxes old ppfx fluxes are used for now
   - to change fit and OA range, 
   - to add a FD RHC flux as a new target
   - to calculate coefficients of linear combination
-  
-- `ErrorPlots.py`
+- `plots.py`:
+  - to plot DUNE-PRISM linear combination, a target flux and LC coefficients
+- `ErrorPlots.py`:
+  - to plot ratios of nominal and shifted ND-PRISM and FD fluxes in FHC and RHC modes for old/new data files
 
 
-**Results:**
+**Run scripts**
 
-- to plot DUNE-PRISM linear combination flux and FD flux that is a target,  coefficients of them:
-  - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: 
-    - FHC
-    - RHC
-  - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data:
-    - FHC
-    - RHC
-- to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
-  - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data:
-    - FHC:
-       - focusing 
-       - ppfx
-    - RHC
-       - focusing
-       - ppfx
-  - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data:
-    - FHC:
-       - focusing 
-       - ppfx
-    - RHC
-       - focusing 
-       - ppfx
+To plot DUNE-PRISM linear combination flux and FD flux that is a target (FHC/RHC) and coefficients of them for:
+- new data:
+
+```
+cd linearComb/
+
+python examples/nom_coeff_300_285.py
+
+NB: it uses plots.py
+```
+
+- old data:
+```
+cd linearComb/
+
+python examples/nom_coeff_old.py
+
+NB: it uses plots.py
+```
+
+To plot ratios of nominal and shifted fluxes for DUNE-PRISM LC off-axis fluxes and FD fluxes:
+- new data: FHC/RHC, other/ppfx
+
+```
+cd linearComb/
+
+python examples/shifts_300_285.py
+
+NB: it uses ErrorPlots.py
+```
+
+- old data: FHC/RHC, other/ppfx
+```
+cd linearComb/
+
+python examples/shifts_old.py
+
+NB: it uses ErrorPlots.py
+```
 
 ## Results:
 
@@ -156,15 +176,30 @@ The copy of outputs is in:
 ![y](/imgs/jpg/LAr_center_Proton_Beam_Radius_pos_page-0001.jpg)
 ![z](/imgs/jpg/LAr_center_Proton_Beam_Radius_neg_page-0001.jpg)
 
-##
+## 2. The DUNE-PRISM method for muon neutrino fluxes
 
-### 
+New data:
+
+- FHC
 
 ![e](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
+
+- RHC
+
 ![f](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
 
+Old data:
+
+- FHC
+
 ![g](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
+
+- RHC
+
 ![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
+
+New data:
+- FHC: other/ppfx
 
 ![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
 ![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
