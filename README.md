@@ -21,7 +21,7 @@ To extract and join unoscillated numu flux hists from different input files in o
 
 - python script: `uncert/form_file.py`
 
-- output files: /home/annast/WSBPRISMPrediction/uncert/
+- output files: will be created in uncert/.\ The copy is in /home/annast/WSBPRISMPrediction/uncert/
 ```
 
 > Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
