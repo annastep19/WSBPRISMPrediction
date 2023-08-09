@@ -116,57 +116,57 @@ Data:
   - `examples/nom_coeff_300_285.py` $\leftarrow$ `plots.py, flux_fitter.py` - new data: 
     - FHC
 
-![g](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
+    ![e](/imgs/jpg/FHC_nom_coeff_300_285_page-0001.jpg)
 
     - RHC
 
-![h](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
+    ![f](/imgs/jpg/RHC_nom_coeff_300_285_page-0001.jpg)
 
   - `examples/nom_coeff_old.py` $\leftarrow$ `plots.py, flux_fitter.py` - old data:
     - FHC
 
-![e](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
+    ![g](/imgs/jpg/FHC_nom_coeff_page-0001.jpg)
 
     - RHC
 
-![f](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
+    ![h](/imgs/jpg/RHC_nom_coeff_page-0001.jpg)
 
 - to plot ratios of nominal and shifted fluxes: for DUNE-PRISM LC off-axis fluxes and FD fluxes
   - `examples/shifts_300_285.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - new data:
     - FHC:
        - focusing 
 
-     ![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
+       ![i](/imgs/jpg/FHC_other_300_285_page-0001.jpg)
     
        - ppfx
 
-     ![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
+       ![j](/imgs/jpg/FHC_ppfx_300_285_page-0001.jpg)
 
     - RHC
        - focusing 
 
-     ![i](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
+       ![k](/imgs/jpg/RHC_other_300_285_page-0001.jpg)
     
        - ppfx
 
-     ![j](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
+       ![l](/imgs/jpg/RHC_ppfx_300_285_page-0001.jpg)
 
   - `examples/shifts_old.py` $\leftarrow$ `ErrorPlots.py, flux_fitter.py` - old data:
     - FHC:
        - focusing 
 
-     ![i](/imgs/jpg/FHC_other_old_page-0001.jpg)
+       ![m](/imgs/jpg/FHC_other_old_page-0001.jpg)
     
        - ppfx
 
-     ![j](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
+       ![o](/imgs/jpg/FHC_ppfx_old_page-0001.jpg)
 
     - RHC
        - focusing 
 
-     ![i](/imgs/jpg/RHC_other_old_page-0001.jpg)
+       ![p](/imgs/jpg/RHC_other_old_page-0001.jpg)
     
        - ppfx
 
-     ![i](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
+       ![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
 
