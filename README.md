@@ -17,7 +17,8 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 To extract and join unoscillated numu flux hists from different input files in one output file for each mode:
 
 ```
-- input files: /home/annast/WSBPRISMPrediction/neutrino/, /home/annast/WSBPRISMPrediction/antineutrino/
+- input files: /home/annast/WSBPRISMPrediction/neutrino/, 
+               /home/annast/WSBPRISMPrediction/antineutrino/
 
 - python script: `uncert/form_file.py`
 
@@ -31,7 +32,7 @@ The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
 
 ```
-- python scripts: `one_dim_ratios.py` $\leftarrow$ `one_dim_utils.py`
+- python scripts: one_dim_ratios.py `$\leftarrow$` one_dim_utils.py
 ```
 
 See figures in **Results**
