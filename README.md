@@ -21,7 +21,8 @@ To extract and join unoscillated numu flux hists from different input files in o
 
   NB: you should load them here: ./neutrino, ./antineutrino
 
-- run script: python uncert/form_file.py
+- run script: cd uncert/ 
+              python form_file.py
 
 - output files: will be created in uncert/
 ```
@@ -34,7 +35,8 @@ The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
 
 ```
-python uncert/one_dim_ratios.py 
+cd uncert/
+python one_dim_ratios.py 
 
 NB: it uses uncert/one_dim_utils.py
 ```
@@ -45,7 +47,8 @@ See figures in **Results**
 To create 2D ratios of ND off-axis fluxes (shifted/nominal): muon neutrino fluxes in FHC and RHC modes
 
 ```
-python uncert/twoDimRatios.py
+cd uncert/
+python twoDimRatios.py
 ```
 
 See figures in **Results**
