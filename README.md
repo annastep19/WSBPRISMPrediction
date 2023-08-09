@@ -19,7 +19,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 **Data:**
 
 - input files: 
-  - /home/annast/project/neutrino/, 
+  - /home/annast/project/neutrino/
   - /home/annast/antineutrino/
 - output files: 
   - /home/annast/project/uncert/
@@ -30,7 +30,7 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 
 **Code:**
 
-- `one_dim_ratios.py` $\leftarrow$ `one_dim_utils.py` - to launch ratio calculations at a particular position and create plots.
+- `one_dim_ratios.py` $\leftarrow$ `one_dim_utils.py` - to launch ratio calculations at a particular position and create plots
  
 **Results:**
 
@@ -57,12 +57,12 @@ Data:
   - old data = Den's data file: 
     - all_HC.root
   - new data = Pierce's data files: 
-    - /home/annast/project/neutrino/, 
+    - /home/annast/project/neutrino/ 
     - /home/annast/project/antineutrino/
 
 - output:
   - old data: 
-    - /home/annast/project/outputs/neutrino_range_old.root,
+    - /home/annast/project/outputs/neutrino_range_old.root
     - /home/annast/project/outputs/antineutrino_range_old.root
    
     ![1](/imgs/1.png)
@@ -72,7 +72,7 @@ Data:
     ![4](/imgs/4.png)
 
   - new data:
-    - /home/annast/project/outputs/neutrino_range_300_285.root,
+    - /home/annast/project/outputs/neutrino_range_300_285.root
     - /home/annast/project/outputs/antineutrino_range_300_285.root
 
     ![5](/imgs/5.png)
