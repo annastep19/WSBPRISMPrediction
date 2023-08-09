@@ -34,6 +34,9 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
  
 **Results:**
 
+![a](LAr center, Horn current, OnAxis: 0 m_page-0001.jpg)
+![b](LAr center, Horn current, OnAxis: 0 m_page-0002.jpg)
+
 ### 1.2 Two dimensional plots
 
 **Code:**
