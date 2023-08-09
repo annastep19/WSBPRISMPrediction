@@ -11,7 +11,7 @@ Code of Anna Stepanova for DUNE-PRISM group. Section 2.1 and the directory of "l
 
 To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neutrino mode) and RHC (antineutrino mode).
 
-**Code:**
+**Preparing root-file:**
 
 To extract and join unoscillated numu flux hists from different input files in one output file for each mode:
 
@@ -22,8 +22,9 @@ To extract and join unoscillated numu flux hists from different input files in o
 - python script: `uncert/form_file.py`
 
 - output files: will be created in uncert/
-The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 ```
+The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
+
 
 > Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
 
@@ -31,7 +32,7 @@ The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
 To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
 
 ```
-- python scripts: uncert/one_dim_ratios.py, uncert/one_dim_utils.py
+uncert/one_dim_ratios.py, uncert/one_dim_utils.py
 ```
 
 See figures in **Results**
@@ -40,21 +41,31 @@ See figures in **Results**
 To create 2D ratios of ND off-axis fluxes (shifted/nominal): muon neutrino fluxes in FHC and RHC modes
 
 ```
-- `uncert/twoDimRatios.py` 
+uncert/twoDimRatios.py
 ```
+
+See figures in **Results**
 
 ## 2. Modifications of Den's code
 
-Data:
+**Preparing root-file:**
 
-- input:
-  - old data = Den's data file: 
-    - all_HC.root
-  - new data = Pierce's data files: 
+To produce a mode file of new (old) nominal and shifted fluxes
+
+```
+- input files:
+  - old (Den's data file): 
+    - /home/annast/WSBPRISMPrediction/all_HC.root
+  - new (Pierce's data files): 
     - /home/annast/WSBPRISMPrediction/neutrino/ 
     - /home/annast/WSBPRISMPrediction/antineutrino/
 
-- output:
+- utils: FormFile.py, BaseCombine.py 
+- run scripts: Init\_ragne\_300\_285.py, 
+               Init\_range\_old.py
+- output files: will be created in ./
+```
+The copy of outputs is in:
   - old data: 
     - /home/annast/WSBPRISMPrediction/outputs/neutrino_range_old.root
     - /home/annast/WSBPRISMPrediction/outputs/antineutrino_range_old.root
@@ -71,16 +82,9 @@ Data:
 
     ![5](/imgs/5.png)
     ![6](/imgs/6.png)
+
+> Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes directly. Look further.
   
-  > Note: there are no new ppfx fluxes. They will be converted from old ppfx fluxes directly. See part 2.1
-
-
-**Code:**
-
-- `Init\_range\_old.py` $\leftarrow$ `FormFile.py, BaseCombine.py` - to produce a mode file of old fluxes
-- `Init\_ragne\_300\_285.py` $\leftarrow$ `FormFile.py, BaseCombine.py` - the same for new fluxes
-
-
 ### 2.1 Making a linear combination
 
 **Code:**
@@ -131,6 +135,8 @@ Data:
 
 ## Results:
 
+## 1. Comparison of muon neutrino fluxes in FHC and RHC modes in the near detector
+
 ### 1.1 One dimensional plots
 
 ![a](/imgs/jpg/LAr_center_Horn_current_OnAxis_0_m_page-0001.jpg)
@@ -138,17 +144,19 @@ Data:
 
 ### 1.2 Two dimensional plots
 
-![r](/imgs/jpg/LAr_center_Decay_Pipe_Radius_pos_page-0001.jpg)
-![s](/imgs/jpg/LAr_center_Decay_Pipe_Radius_neg_page-0001.jpg)
-
 ![c](/imgs/jpg/LAr_center_Horn_Current_pos_page-0001.jpg)
 ![d](/imgs/jpg/LAr_center_Horn_Current_neg_page-0001.jpg)
+
+![r](/imgs/jpg/LAr_center_Decay_Pipe_Radius_pos_page-0001.jpg)
+![s](/imgs/jpg/LAr_center_Decay_Pipe_Radius_neg_page-0001.jpg)
 
 ![t](/imgs/jpg/LAr_center_Horn_Water_Layer_Thickness_pos_page-0001.jpg)
 ![x](/imgs/jpg/LAr_center_Horn_Water_Layer_Thickness_neg_page-0001.jpg)
 
 ![y](/imgs/jpg/LAr_center_Proton_Beam_Radius_pos_page-0001.jpg)
 ![z](/imgs/jpg/LAr_center_Proton_Beam_Radius_neg_page-0001.jpg)
+
+##
 
 ### 
 
