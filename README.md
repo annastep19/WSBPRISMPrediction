@@ -31,8 +31,8 @@ To extract and join unoscillated numu flux hists from different input files in o
 - output files: will be created in uncert/
 ```
 Outputs look like: 
-  - WSBPRISMPrediction/uncert/neutrino_range_old.root
-  - WSBPRISMPrediction/uncert/antineutrino_range_old.root
+  - WSBPRISMPrediction/uncert/neutrino_branches.root
+  - WSBPRISMPrediction/uncert/antineutrino_branches.root
    
   ![1](/imgs/7.png)
   ![2](/imgs/8.png)
