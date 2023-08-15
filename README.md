@@ -1,9 +1,7 @@
 # Wrong sign background PRISM prediction
 
-Code of Anna Stepanova for DUNE-PRISM group. Section 2 and the directory of "linearComb/" are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting 
 
-> Some notes:
-> 
+> Section 2 and the directory of "linearComb/" are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting 
 > - *Data* means Monte-Carlo simulation that is used as inputs or outputs
 > - *300* in names of python files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: /home/annast/WSBPRISMPrediction/neutrino/OtherHorns/
 
@@ -277,5 +275,7 @@ Old data:
 
 
 # Contributing
+
+This is the code of Anna Stepanova for DUNE-PRISM group. 
 
 Contact me for any questions or for input data files: as592454@gmail.com
