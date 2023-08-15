@@ -31,11 +31,11 @@ To extract and join unoscillated numu flux hists from different input files in o
 - output files: will be created in uncert/
 ```
 Outputs look like: 
-    - WSBPRISMPrediction/uncert/neutrino_range_old.root
-    - WSBPRISMPrediction/uncert/antineutrino_range_old.root
+  - WSBPRISMPrediction/uncert/neutrino_range_old.root
+  - WSBPRISMPrediction/uncert/antineutrino_range_old.root
    
-    ![1](/imgs/7.png)
-    ![2](/imgs/8.png)
+  ![1](/imgs/7.png)
+  ![2](/imgs/8.png)
 
 > Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
 
