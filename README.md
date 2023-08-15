@@ -23,8 +23,8 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 To extract and join unoscillated numu flux hists from different input files in one output file for each mode:
 
 ```
-- input files: WSBPRISMPrediction/neutrino/, 
-               WSBPRISMPrediction/antineutrino/
+- input files: neutrino/, 
+               antineutrino/
 
   NB: you should load them here: ./neutrino, ./antineutrino
 
@@ -67,13 +67,13 @@ To produce a mode file of new (old) nominal and shifted fluxes
 ```
 - input files:
   - old (Den's data file): 
-    - WSBPRISMPrediction/all_HC.root
+    - all_HC.root
 
   NB: you should load them here: ./
 
   - new (Pierce's data files): 
-    - WSBPRISMPrediction/neutrino/ 
-    - WSBPRISMPrediction/antineutrino/
+    - neutrino/ 
+    - antineutrino/
 
   NB: you should load them here: ./neutrino/, ./antineutino/
 
