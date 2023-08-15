@@ -4,15 +4,14 @@ Code of Anna Stepanova for DUNE-PRISM group. Section 2 and the directory of "lin
 
 > Some notes:
 > 
-> - *Data* means Monte-Carlo simulation that is used as inputs or outputs and temporarily located in 10.220.18.41
+> - *Data* means Monte-Carlo simulation that is used as inputs or outputs
 > - *300* in names of python files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: /home/annast/WSBPRISMPrediction/neutrino/OtherHorns/
 
 ```
 # clone this repo to start
 git clone git@github.com:annastep19/WSBPRISMPrediction.git
 
-# copy data files from 10.220.18.41
-cp /home/annast/WSBPRISMPrediction/ .
+# reach and load data files from somewhere
 ```
 
 ## 1. Comparison of muon neutrino fluxes in FHC and RHC modes in the near detector
@@ -24,8 +23,8 @@ To compare differences of nominal and shifted $\nu_{\mu}$ ND fluxes in FHC (neut
 To extract and join unoscillated numu flux hists from different input files in one output file for each mode:
 
 ```
-- input files: /home/annast/WSBPRISMPrediction/neutrino/, 
-               /home/annast/WSBPRISMPrediction/antineutrino/
+- input files: WSBPRISMPrediction/neutrino/, 
+               WSBPRISMPrediction/antineutrino/
 
   NB: you should load them here: ./neutrino, ./antineutrino
 
@@ -34,8 +33,6 @@ To extract and join unoscillated numu flux hists from different input files in o
 
 - output files: will be created in uncert/
 ```
-The copy of outputs is in /home/annast/WSBPRISMPrediction/uncert/
-
 
 > Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
 
@@ -70,13 +67,13 @@ To produce a mode file of new (old) nominal and shifted fluxes
 ```
 - input files:
   - old (Den's data file): 
-    - /home/annast/WSBPRISMPrediction/all_HC.root
+    - WSBPRISMPrediction/all_HC.root
 
   NB: you should load them here: ./
 
   - new (Pierce's data files): 
-    - /home/annast/WSBPRISMPrediction/neutrino/ 
-    - /home/annast/WSBPRISMPrediction/antineutrino/
+    - WSBPRISMPrediction/neutrino/ 
+    - WSBPRISMPrediction/antineutrino/
 
   NB: you should load them here: ./neutrino/, ./antineutino/
 
@@ -86,10 +83,10 @@ To produce a mode file of new (old) nominal and shifted fluxes
                Init_range_old.py
 - output files: will be created in outputs/
 ```
-The copy of outputs is in:
+Outputs look like:
   - old data: 
-    - /home/annast/WSBPRISMPrediction/outputs/neutrino_range_old.root
-    - /home/annast/WSBPRISMPrediction/outputs/antineutrino_range_old.root
+    - WSBPRISMPrediction/outputs/neutrino_range_old.root
+    - WSBPRISMPrediction/outputs/antineutrino_range_old.root
    
     ![1](/imgs/1.png)
     ![2](/imgs/2.png)
@@ -98,8 +95,8 @@ The copy of outputs is in:
     ![4](/imgs/4.png)
 
   - new data:
-    - /home/annast/WSBPRISMPrediction/outputs/neutrino_range_300_285.root
-    - /home/annast/WSBPRISMPrediction/outputs/antineutrino_range_300_285.root
+    - WSBPRISMPrediction/outputs/neutrino_range_300_285.root
+    - WSBPRISMPrediction/outputs/antineutrino_range_300_285.root
 
     ![5](/imgs/5.png)
     ![6](/imgs/6.png)
@@ -277,3 +274,8 @@ Old data:
 - RHC: ppfx
 
 ![q](/imgs/jpg/RHC_ppfx_old_page-0001.jpg)
+
+
+# Contributing
+
+Contact me for any questions or for input data files: as592454@gmail.com
