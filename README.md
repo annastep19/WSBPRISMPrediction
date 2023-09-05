@@ -1,14 +1,12 @@
 # Wrong sign background PRISM prediction
 
-
 > - Section 2 and the directory of "linearComb/" are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting 
 > - *Data* means Monte-Carlo simulation that is used as inputs or outputs
-> - *300* in names of python files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in: /home/annast/WSBPRISMPrediction/neutrino/OtherHorns/
+> - *300* in names of python files means that the main horn current equals to 300 kA, *285* is for an additional horn current. There are some other values (290 kA, 293 kA, 296 kA) of the additional horn current in Pierce Weatherly's directories.
 
 ```
 # clone this repo to start
 git clone git@github.com:annastep19/WSBPRISMPrediction.git
-
 ```
 
 ## 1. Comparison of muon neutrino fluxes in FHC and RHC modes in the near detector
@@ -30,6 +28,7 @@ To extract and join unoscillated numu flux hists from different input files in o
 
 - output files: will be created in uncert/
 ```
+
 Outputs look like: 
   - WSBPRISMPrediction/uncert/neutrino_branches.root
   - WSBPRISMPrediction/uncert/antineutrino_branches.root
@@ -37,7 +36,7 @@ Outputs look like:
   ![1](/imgs/7.png)
   ![2](/imgs/8.png)
 
-> Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce's directories.
+> Note: there are results for a few uncertainties: Decay Pipe Radius, Horn Current, Horn Water Layer Thickness, Proton Beam Radius. For a whole list of uncertainties see Pierce Weatherly's directories.
 
 ### 1.1 One dimensional plots
 To make one dimensional ratio plots of numu fluxes in FHC and RHC modes for each focusing uncertainty at a particular position 
@@ -49,7 +48,7 @@ python one_dim_ratios.py
 NB: it uses uncert/one_dim_utils.py
 ```
 
-See figures in **Results**
+See figures in **Results** section.
 
 ### 1.2 Two dimensional plots
 To create 2D ratios of ND off-axis fluxes (shifted/nominal): muon neutrino fluxes in FHC and RHC modes
@@ -59,7 +58,7 @@ cd uncert/
 python twoDimRatios.py
 ```
 
-See figures in **Results**
+See figures in **Results** section.
 
 ## 2. The DUNE-PRISM method for muon neutrino fluxes
 
@@ -69,8 +68,7 @@ To produce a mode file of new (old) nominal and shifted fluxes
 
 ```
 - input files:
-  - old (Den's data file): 
-    - all_HC.root
+  - old (Den's data file)
 
   NB: you should load them here: ./
 
@@ -119,11 +117,10 @@ cd linearComb/
   - to set energy and off-axis ranges
 - `flux_fitter.py` + `fluxes.py`, `utils.py`, `oscProbs.py`:
   - to load fluxes and set other variables
-  > Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): 
-    to produce new ppfx fluxes old ppfx fluxes are used for now
+  > Note: load_FD_ppfx_shifts()/load_ND_ppfx_shifts(): to produce new ppfx fluxes old ppfx fluxes are used for now.
   - to change fit and OA range, 
   - to add a FD RHC flux as a new target
-  - to calculate coefficients of linear combination
+  - to calculate coefficients of a linear combination
 - `plots.py`:
   - to plot DUNE-PRISM linear combination, a target flux and LC coefficients
 - `ErrorPlots.py`:
@@ -172,7 +169,7 @@ python examples/shifts_old.py
 NB: it uses ErrorPlots.py
 ```
 
-See figures in **Results**
+See figures in **Results** section.
 
 ## Results:
 
