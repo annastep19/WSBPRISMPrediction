@@ -279,5 +279,6 @@ Old data:
 # Contributing
 
 This is the code of Anna Stepanova for DUNE-PRISM group. 
+Section 2 and the directory of "linearComb/" are based on Daniel Douglas' code: https://github.com/DanielMDouglas/prism_fitting
 
 Contact me for any questions or for input data files: as592454@gmail.com
